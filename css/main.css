@@ -310,7 +310,7 @@ template {
   display: none;
 }
 
-/* FONTS */ /* GENERAL */
+/* FONTS */
 html {
   box-sizing: border-box;
   height: 100%;
@@ -327,11 +327,20 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  padding: 0;
   margin: 0;
-  overflow-x: hidden;
   font-family: "Arial", sans-serif;
+  font-weight: 400;
   background-color: #fff;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+main {
+  flex-grow: 1;
 }
 
 img {
@@ -339,8 +348,39 @@ img {
   height: auto;
 }
 
-main {
-  flex-grow: 1;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 1320px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* VISUALLY-HIDDEN */
@@ -363,4 +403,18 @@ main {
   margin-right: auto;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.card-img-top {
+  width: 250px;
+  height: 250px;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+.card-category {
+  font-size: 18px;
+  text-transform: capitalize;
 }/*# sourceMappingURL=main.css.map */
