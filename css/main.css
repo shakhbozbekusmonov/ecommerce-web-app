@@ -405,6 +405,16 @@ a {
   padding-right: 50px;
 }
 
+.site-header .korzinka {
+  position: relative;
+}
+.site-header .korzinka-count {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  z-index: 50;
+}
+
 .card-img-top {
   width: 250px;
   height: 250px;
