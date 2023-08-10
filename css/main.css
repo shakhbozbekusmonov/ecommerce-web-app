@@ -339,6 +339,10 @@ img {
   height: auto;
 }
 
+main {
+  flex-grow: 1;
+}
+
 /* VISUALLY-HIDDEN */
 .visually-hidden {
   position: absolute;

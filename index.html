@@ -11,7 +11,69 @@
 </head>
 <body>
 
-    
+    <!-- HEADER START -->
+    <header class="site-header bg-black">
+        <div class="container">
+            <div class="site-header__wrapper d-flex align-items-center justify-content-between">
+                <a class="site-header__logo" href="./index.html">
+                    <img class="site-header__logo-img" src="./images/logo.svg" width="150" alt="Shopping logo img">
+                </a>
+
+                <nav class="site-header__nav">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="./index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./index.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./index.html" class="nav-link">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <form class="shop-search-form">
+                    <div class="input-group">
+                        <input type="search" class="form-control" placeholder="Search...">
+                        <button class="btn btn-light" type="submit">
+                            <img src="./images/search.svg" width="20" alt="Search icon img">
+                        </button>
+                    </div>
+                </form>
+
+                <button class="btn btn-light">
+                    <img src="./images/shopping-cart.svg" width="20" alt="Shopping cart img">
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN START -->
+    <main class="site-main">
+        <!-- CATEGORY SECTION START -->
+        <section class="category">
+            <div class="container">
+                <div class="category__wrapper d-flex justify-content-center my-4">
+                    <button class="btn btn-dark me-2" type="button">Men's clothing</button>
+                    <button class="btn btn-danger me-2" type="button">Women's clothing</button>
+                    <button class="btn btn-warning me-2" type="button">Jewelery</button>
+                    <button class="btn btn-success" type="button">Electronics</button>
+                </div>
+            </div>
+        </section>
+        <!-- CATEGORY SECTION END -->
+    </main>
+    <!-- MAIN END -->
+
+    <!-- FOOTER START -->
+    <footer class="site-footer bg-black py-4">
+        <div class="container">
+            <p class="mb-0 text-white">All rights are reserved &copy; Copyright Newcastle Team</p>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
 
     <script src="./js/main.js"></script>
 </body>
