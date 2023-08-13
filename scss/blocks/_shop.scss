@@ -1,13 +1,30 @@
-.card-img-top{
+.card-img-top {
     width: 250px;
     height: 250px;
 }
 
-.card-title{
+.card-title {
     font-size: 20px;
 }
 
-.card-category{
+.card-category {
     font-size: 18px;
     text-transform: capitalize;
+}
+
+.product-category {
+    text-transform: capitalize;
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

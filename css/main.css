@@ -1,4 +1,6 @@
-/* VARIABLES */ /* MIXINS */ /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* VARIABLES */
+/* MIXINS */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
@@ -427,4 +429,21 @@ a {
 .card-category {
   font-size: 18px;
   text-transform: capitalize;
+}
+
+.product-category {
+  text-transform: capitalize;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
